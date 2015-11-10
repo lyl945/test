@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/btn_logout_normal" />
+
+    <corners android:radius="2dp" />
+
+</shape><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/btn_logout_normal_shape.xml --><!-- From: file:/F:/android/test/LeadLoan/build/intermediates/exploded-aar/test/ChatUIDemo/unspecified/res/drawable/btn_logout_normal_shape.xml -->

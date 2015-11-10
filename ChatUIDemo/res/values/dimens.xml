@@ -1,0 +1,68 @@
+<resources>
+
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="margin_chat_activity">12dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="bubble_padding">12dp</dimen>
+    <dimen name="activity_horizontal_caonima">120dp</dimen>
+    <dimen name="activity_margin_20">20dip</dimen>
+    <dimen name="activity_margin_25">25dip</dimen>
+    <dimen name="activity_margin_5">10dip</dimen>
+    <dimen name="activity_margin_10">10dip</dimen>
+    <dimen name="activity_margin_17">17dp</dimen>
+    <dimen name="activity_margin_15">15dp</dimen>
+    <dimen name="activity_textsize_14">14sp</dimen>
+    <dimen name="activity_textsize_15">15sp</dimen>
+    <dimen name="activity_textsize_16">16sp</dimen>
+    <dimen name="activity_textsize_18">18sp</dimen>
+    <dimen name="activity_textsize_20">20sp</dimen>
+    <dimen name="btn_textsize">22sp</dimen>
+    <dimen name="first_title_size">20sp</dimen>
+    <!-- 设置侧滑属性 -->
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="shadow_width1">500dp</dimen>
+    <dimen name="right_menu_offset">300dp</dimen>
+    <dimen name="dlg_menu_radius">8dp</dimen>
+
+    <!-- 结束 -->
+    <!-- 个人设置字体属性 -->
+    <dimen name="personal_setting_text">14dp</dimen>
+
+    <!-- popWod泡泡 -->
+    <dimen name="popmenu_width">200.0dip</dimen>
+    <dimen name="popmenu_yoff">0.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+
+    <!-- 设置Button宽度 -->
+    <dimen name="button_with">48dip</dimen>
+
+    <!-- 设置头部菜单的高度 -->
+    <dimen name="marke_tab">64dip</dimen>
+    <dimen name="marke_order_tab">40dip</dimen>
+    <dimen name="dlg_menu_inner_radius">4dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="more_large_text">22sp</dimen>
+    <dimen name="large_text">18sp</dimen>
+    <dimen name="medium_text">14sp</dimen>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="plain_text_h">48dip</dimen>
+    <dimen name="input_text_margin">12dip</dimen>
+    <dimen name="bg_corner_radius">10dip</dimen>
+    <dimen name="container_margin">8dip</dimen>
+    <dimen name="bg_border_width">1px</dimen>
+    <dimen name="small_radius">4dip</dimen>
+    <dimen name="zero">0dip</dimen>
+
+</resources>

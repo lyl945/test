@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f5f5"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_bg"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:hint="在通讯录搜索"
+        android:iconifiedByDefault="false"
+        android:inputType="textFilter"
+        android:paddingLeft="108dp"
+        android:textColor="#656565"
+        android:textSize="14sp" >
+    </EditText>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/slitLineColor" />
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@color/white"
+        android:iconifiedByDefault="false"
+        android:inputType="textFilter"
+        android:queryHint="搜索好友列表"
+        android:visibility="gone" >
+    </SearchView>
+
+    <ListView
+        android:id="@+id/list_address"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:divider="#000" />
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/personal_address_book.xml -->

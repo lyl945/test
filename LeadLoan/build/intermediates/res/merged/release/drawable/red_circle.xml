@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <solid android:color="#FF0000" />
+
+    <stroke
+        android:width="2dp"
+        android:color="@android:color/white" />
+
+    <size
+        android:height="19dp"
+        android:width="19dp" />
+
+</shape><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/red_circle.xml --><!-- From: file:/F:/android/test/LeadLoan/build/intermediates/exploded-aar/test/ChatUIDemo/unspecified/res/drawable/red_circle.xml -->

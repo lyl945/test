@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/person_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="17dip"
+                        android:src="@drawable/head" />
+
+                    <TextView
+                        android:id="@+id/text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/person_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="18dip"
+                        android:text="上传头像有利于别的信贷经理认识您"
+                        android:textColor="@color/text_black"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text_1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="7dp"
+                        android:text="还可以获取更高的关注度"
+                        android:textColor="@color/text_black"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:layout_marginTop="61dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/location" />
+
+                    <EditText
+                        android:id="@+id/ediText_pwd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="11dip"
+                        android:layout_toRightOf="@id/imageView_password"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:focusable="false"
+                        android:hint="您所在的城市：深圳"
+                        android:singleLine="true"
+                        android:textColor="#656565"
+                        android:textSize="14sp" >
+
+                        <requestFocus />
+                    </EditText>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:background="#dfdfdf" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip" >
+
+                    <ImageView
+                        android:id="@+id/imageView_password10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/mechanism" />
+
+                    <TextView
+                        android:id="@+id/auto_institute"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="11dip"
+                        android:layout_toRightOf="@id/imageView_password10"
+                        android:background="@null"
+                        android:completionThreshold="1"
+                        android:dropDownHorizontalOffset="20dp"
+                        android:ellipsize="end"
+                        android:ems="10"
+                        android:gravity="center_vertical"
+                        android:hint="您的任职机构"
+                        android:singleLine="true"
+                        android:textColor="#656565"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:background="#dfdfdf" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip" >
+
+                    <ImageView
+                        android:id="@+id/imageView_password11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/data" />
+
+                    <EditText
+                        android:id="@+id/display_name"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="11dip"
+                        android:layout_toRightOf="@id/imageView_password11"
+                        android:background="@null"
+                        android:ellipsize="end"
+                        android:hint="输入您的显示名"
+                        android:singleLine="true"
+                        android:textColor="#656565"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:background="#dfdfdf" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip" >
+
+                    <ImageView
+                        android:id="@+id/imageView_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/friends" />
+
+                    <RelativeLayout
+                        android:id="@+id/text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="11dip"
+                        android:layout_toRightOf="@id/imageView_phone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="right"
+                            android:text="入驻方式"
+                            android:textColor="#656565"
+                            android:textSize="13sp" />
+                    </RelativeLayout>
+
+                    <RadioGroup
+                        android:id="@+id/get_way"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/text_name"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radio_0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:button="@drawable/radio_selector"
+                            android:checked="true"
+                            android:text="信贷经理"
+                            android:textColor="#656565"
+                            android:textSize="13sp" />
+
+                        <RadioButton
+                            android:id="@+id/radio_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:button="@drawable/radio_selector"
+                            android:text="商务顾问/中介"
+                            android:textColor="#656565"
+                            android:textSize="13sp" />
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:background="#dfdfdf" />
+
+                <Button
+                    android:id="@+id/btn_next"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="23dip"
+                    android:layout_marginRight="23dip"
+                    android:layout_marginTop="36dp"
+                    android:background="@drawable/next_button"
+                    android:text="下一步"
+                    android:textColor="#FFFF"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

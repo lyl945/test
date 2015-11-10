@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="3dp" />
+
+    <solid android:color="#dcdddd" />
+
+</shape><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/timestampe_bg.xml --><!-- From: file:/F:/android/test/LeadLoan/build/intermediates/exploded-aar/test/ChatUIDemo/unspecified/res/drawable/timestampe_bg.xml -->

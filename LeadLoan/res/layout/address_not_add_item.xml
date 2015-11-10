@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_mshop"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+         >
+
+        <ImageView
+        android:id="@+id/buddy_listview_child_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/head1" />
+        <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buddy_listview_child_avatar"
+        android:text="昵称"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="7dp"
+        android:textColor="#303030"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/buddy_listview_child_trends"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5dp"
+        android:text="平安银行-信贷经理"
+        android:textColor="#555555"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/buddy_listview_child_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/name"
+        android:text="L1"
+        android:layout_toRightOf="@id/buddy_listview_child_trends"
+        android:textColor="#fefefe"
+        android:background="@drawable/frame1"
+        android:layout_marginLeft="5dp"
+        android:textSize="8sp" />
+        
+        <Button
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="23dp"
+            android:layout_centerVertical="true"
+           android:background="@drawable/addfriend_bj"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:text="加好友" />
+        
+    </RelativeLayout>
+    <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/all_line_gay" />
+
+</LinearLayout>

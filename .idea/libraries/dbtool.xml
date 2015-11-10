@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dbtool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LeadLoan/libs/dbtool.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

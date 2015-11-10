@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ac1c25" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/crm_tip_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/customer_prompt" />
+
+            <TextView
+                android:id="@+id/tip1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="49dp"
+                android:text="您暂时没有认证哦 !"
+                android:textColor="#4c4c4c"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="请快去认证以便领贷助手给您推送客户"
+                android:textColor="#b2b2b2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tip3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/customer_bt"
+                android:gravity="center"
+                android:text="立即认证"
+                android:textColor="#e23742"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/customer_bj" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/crm_list_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/list_fun_page_main"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:divider="@null"
+                android:dividerHeight="3dp"
+                android:fadingEdge="none"
+                android:fastScrollEnabled="false"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false" >
+            </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+            <com.surong.leadloan.ui.SideBar
+                android:id="@+id/sidrbar"
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/crm.xml -->

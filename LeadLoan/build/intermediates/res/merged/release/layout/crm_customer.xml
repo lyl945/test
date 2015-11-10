@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="58dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingLeft="21dp"
+                android:text="客户资质（公司）"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="#f7fbff"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="注册地："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="本地"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="经营年限："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="2年"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="#f7fbff"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="年主营收入："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="200万元"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="年净利润："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="300万元"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="#f7fbff"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="资产合计："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="500万元"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="21dp"
+                    android:text="负债合计："
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:background="#d8e8f7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="12dp"
+                    android:text="无"
+                    android:textColor="#373737"
+                    android:textSize="12sp" />
+            </LinearLayout>
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+             <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="@color/white" />
+    
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/crm_customer.xml -->

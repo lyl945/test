@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_title_bar1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginBottom="8dp" >
+
+            <ImageView
+                android:id="@+id/add_friend_header"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/default_avatar" />
+
+            <TextView
+                android:id="@+id/add_friend_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/add_friend_header"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/add_friend_header"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/add_friend_inst"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/add_friend_header"
+                android:layout_alignLeft="@+id/add_friend_name"
+                android:layout_marginBottom="4dp"
+                android:textColor="#999"
+                android:textSize="14sp" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="#efefef" >
+            </FrameLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_group"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="@drawable/add_friend_grayrect_bg"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" >
+
+            <TextView
+                android:id="@+id/add_friend_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="移动到分组"
+                android:textColor="#666"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/add_friend_choose_group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/add_friend_group"
+                android:background="@drawable/transparent"
+                android:drawableRight="@drawable/down"
+                android:gravity="left|center_vertical"
+                android:text="分组"
+                android:paddingLeft="10dp"
+                android:textColor="#333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/ChatUIDemo/res/layout/move_packet_activity.xml --><!-- From: file:/F:/android/test/ChatUIDemo/build/intermediates/bundles/debug/res/layout/move_packet_activity.xml -->

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/fuction_introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:text="　　领贷-同业圈致力于为信贷经理提供快速便捷的新客户拓展、精准高效的存量客户匹配、广泛的同业交流合作以及智能客户管理系统，打造信贷经理的掌上工作和社交平台。
+
+\n在这里您可以：
+\n1、快速获取最新一手客户，轻松拥有海量业务资源；
+\n2、存量客户资源精准对接合作机构，快速获取高额佣金；
+\n3、认识同城近万名信贷经理和即时通讯系统，实时拓展人脉资源和业务机会；
+\n4、智能客户管理系统，客户信息和订单处理一手掌握；
+\n5、拥有独立个人店铺和创新推广管理，树立品牌形象及方便业务推广。
+
+我们很乐意听取您的建议，请电邮给我们：
+feedback@surong100.com
+            " />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/old_fuctionintroduction.xml -->

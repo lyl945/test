@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/more_bj" android:state_pressed="true"/>
+
+</selector><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/common_tab_bg.xml -->

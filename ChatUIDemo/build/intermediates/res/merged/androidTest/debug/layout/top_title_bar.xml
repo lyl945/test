@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:background="#e2343f" >
+
+    <TextView
+        android:id="@+id/top_textView_left"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="20dp"
+        android:textColor="#fff"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/top_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:ems="8"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/top_textView_right"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</RelativeLayout><!-- From: file:/F:/android/test/ChatUIDemo/res/layout/top_title_bar.xml --><!-- From: file:/F:/android/test/ChatUIDemo/build/intermediates/bundles/debug/res/layout/top_title_bar.xml -->

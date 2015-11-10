@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <com.surong.leadloan.ui.AutoLineFeedLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/hobby_values"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:horizontalSpacing="5dp"
+        app:paddingLeft="12dp"
+        app:paddingRight="12dp"
+        app:verticalSpacing="5dp" />
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/hobby_layout.xml -->

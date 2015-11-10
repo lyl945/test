@@ -1,0 +1,11 @@
+<resources>
+
+  
+    <dimen name="filt_height">626dp</dimen>
+    <dimen name="id_width">131dp</dimen>
+    <dimen name="id_height">78dp</dimen>
+    
+    <dimen name="work_width">104dp</dimen>
+    <dimen name="work_height">158dp</dimen>
+
+</resources>

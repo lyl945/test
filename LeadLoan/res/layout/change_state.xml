@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text_1"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_2"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <RadioGroup
+                android:id="@+id/status_02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/status_02_01"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:text="外地号码且客户在外地工作" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/status_02_02"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:text="空号、停关机" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/status_02_03"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:text="中介、同行试用网站效果" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/status_02_04"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:text="重复客户，用户通过速融100平台向您或您所在机构的其他信贷员申请过贷款" >
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_3"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:id="@+id/status_03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/status_03_01"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="利息高" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_03_02"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="额度少" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_03_03"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="放款慢" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_03_04"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="嫌麻烦" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_03_05"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="考虑自筹" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_03_06"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="其他，请补充说明" >
+                </CheckBox>
+
+                <EditText
+                    android:id="@+id/editText_03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:padding="12dp"
+                    android:hint="请输入原因"
+                    android:textColor="#898989"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_4"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_5"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <LinearLayout
+                android:id="@+id/status_05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <CheckBox
+                    android:id="@+id/status_05_01"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="利息高" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_02"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="额度少" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_03"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="放款慢" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_04"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="嫌麻烦" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_05"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="已自筹" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_06"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="不需要了" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_07"
+                    style="@style/status_list_item"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="其他中介平台" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/status_05_08"
+                    style="@style/status_list_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:button="@drawable/checkbox_selector"
+                    android:paddingLeft="20dp"
+                    android:text="其他，请补充说明" >
+                </CheckBox>
+
+                <EditText
+                    android:id="@+id/editText_05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@null"
+                    android:padding="12dp"
+                    android:hint="请输入原因"
+                    android:textColor="#898989"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_6"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <include layout="@layout/state_06" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_7"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_8"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <include
+                layout="@layout/state_99"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <TextView
+                android:id="@+id/text_9"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+            <include layout="@layout/state_11"/>
+
+            <TextView
+                android:id="@+id/text_10"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp" />
+
+            <include layout="@layout/state_08" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_list" />
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="23dip"
+                android:layout_marginRight="23dip"
+                android:layout_marginTop="28dip"
+                android:background="@drawable/title_red_selector"
+                android:text="确定"
+                android:textColor="@color/text_white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

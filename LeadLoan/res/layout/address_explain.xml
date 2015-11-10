@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1080dp"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+ <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="21dp"
+            android:textColor="#c72c36"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="在领贷中同步手机通迅录将会：" />
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="12dip"
+            android:layout_below="@id/text_1"
+           
+            android:textSize="10sp"
+            android:textColor="#747474"
+            android:lineSpacingExtra="13dip"
+            android:text="开启此功能可以帮助您在领贷同业圈的通讯录中看到联系人的信息，您也可以在您的手机设置页面关闭信息同步，禁止手机读取领贷同业圈信息" />
+     
+        <ImageView
+            android:id="@+id/person_icon"
+            android:layout_marginTop="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_2"
+           android:layout_centerHorizontal="true"
+            android:src="@drawable/picture_renmai" />
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

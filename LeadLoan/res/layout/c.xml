@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.surong.leadloan.ui.MyButton xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/button_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:layout_marginLeft="12dip"
+    android:layout_marginRight="22dp"
+    android:background="@drawable/shape_bg"
+    android:paddingBottom="6dp"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:text="" />

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/rrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="27dp"
+            android:paddingTop="25dp"
+            android:text="账户点劵余额:"
+            android:textColor="#555555"
+            android:textSize="11sp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="23dp"
+              android:layout_marginTop="18dp"
+              android:background="@drawable/frame_query"
+              android:gravity="center"
+              android:text="充值记录查询:"
+              android:textColor="#555555"
+              android:textSize="11sp" />
+         </RelativeLayout>
+         </LinearLayout>
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+             <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="27dp"
+                 android:paddingTop="9dp"
+                 android:textColor="#e2343f"
+                 android:textSize="13sp"
+                 android:text="0点劵"/>
+               <View
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="#f7f5f5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="27dp"
+                    android:paddingTop="19dp"
+                    android:text="请选择适合您的支付方式"
+                    android:textColor="#333333"
+                    android:textSize="14sp" />
+                
+                  <View
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#f3f3f3" />
+
+         </LinearLayout>
+          <LinearLayout 
+             android:layout_width="fill_parent"
+             android:paddingTop="15dp"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+                  
+              <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="23dp"
+                  android:src="@drawable/alipay"/>
+                <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="22dp"
+                  android:src="@drawable/wechat_payment"/>
+                  <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="22dp"
+                  android:src="@drawable/online_payment"/>
+                    <ImageView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:paddingLeft="22dp"
+                  android:src="@drawable/cash_remittance"/>
+              
+                  </LinearLayout>
+                  <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:paddingTop="29dp"
+                      android:orientation="horizontal">
+                        <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="27dp"
+                    android:text="金额:"
+                    android:textColor="#4c4c4c"
+                    android:textSize="14sp" />
+                        
+                               <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:hint="请输入您的充值余额..."
+                    android:textColor="#4c4c4c"
+                    android:textSize="14sp" />
+                                   <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    android:textColor="#4c4c4c"
+                    android:textSize="14sp" />
+                  </LinearLayout>
+                       <View
+                android:layout_marginTop="10dp"
+                android:layout_width="313dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#eeeeee" />
+                        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:paddingTop="18dp"
+                      android:orientation="horizontal">
+                        <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="27dp"
+                    android:text="备注:"
+                    android:textColor="#4c4c4c"
+                    android:textSize="14sp" />
+                        
+                               <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:hint="如您有补充信息需要说明，请在这里填写"
+                    android:textColor="#999999"
+                    android:textSize="12sp" />
+                  </LinearLayout>
+                       <View
+                android:layout_marginTop="10dp"
+                android:layout_width="313dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#eeeeee" />
+                        <Button
+                android:id="@+id/btn_infirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/certi_button"
+                android:gravity="center"
+                android:text="提交"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+                        
+                        <View
+                android:layout_marginTop="14dp"
+                android:layout_width="fill_parent"
+                android:layout_height="13dp"
+                android:background="#e3e3e3" />
+                     <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="27dp"
+                 android:paddingTop="15dp"
+                 android:textColor="#e2343f"
+                 android:textSize="13sp"
+                 android:text="温馨提示"/>
+                      <View
+                android:layout_marginTop="10dp"
+                android:layout_width="313dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#eeeeee" />
+                      
+                        <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                android:lineSpacingExtra="12dp"
+                 android:paddingTop="14dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="1.如果您准备线上支付宝直接充值，请选择支付宝充值，点劵将在十分钟之后到达你的账号;"/>
+                                <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:paddingTop="22dp"
+                 android:lineSpacingExtra="12dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="2.如果您已经线下充值，请选择银行转账填写相关信息,以便及时为您查收确认"/>
+                                        <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:paddingTop="14dp"
+                 android:lineSpacingExtra="12dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="3.如果您直接将现金转交他人帮您支付，请点击现金代付并填写现在代收人的姓名，以便我们及时帮您确认充值."/>
+                
+                           <View
+                android:layout_marginTop="18dp"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:background="#e3e3e3" />   
+                
+                 <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:paddingTop="17dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#333333"
+                 android:textSize="11sp"
+                 android:text="您好!请您在每次充值后，及时在系统内填入您的转账信息,以使我们的财务尽快为您确认充值."/>
+                         
+                 <View
+                android:layout_marginTop="10dp"
+                android:layout_width="313dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#eeeeee" />
+                 
+                 <LinearLayout android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="13dp"
+                     android:orientation="horizontal">
+                
+                  <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:paddingTop="17dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="账户名 :"/>
+                    <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="8dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#333333"
+                 android:textSize="11sp"
+                 android:text="深圳市速融壹佰信息咨询有限责任公司"/>
+                  
+                  </LinearLayout>
+                   <LinearLayout android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="12dp"
+                     android:orientation="horizontal">
+                
+                  <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="账户号 :"/>
+                    <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="8dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#333333"
+                 android:textSize="11sp"
+                 android:text="4000104209100036280"/>
+                  
+                  </LinearLayout>
+                   <LinearLayout android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingTop="12dp"
+                     android:orientation="horizontal">
+                
+                  <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="25dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#555555"
+                 android:textSize="10sp"
+                 android:text="账户号 :"/>
+                    <TextView android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:paddingLeft="8dp"
+                 android:lineSpacingExtra="11dp"
+                 android:textColor="#333333"
+                 android:textSize="11sp"
+                 android:text="755921631210301招行银行中央商务支行"/>
+                  
+                  </LinearLayout>
+                  <View
+                android:layout_marginTop="13dp"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#eeeeee" />
+                         
+    </LinearLayout>
+</ScrollView><!-- From: file:/F:/android/test/LeadLoan/res/layout/account_recharge.xml -->

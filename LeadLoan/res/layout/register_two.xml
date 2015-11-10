@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dip"
+                android:layout_marginRight="23dip"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView_phone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/channel" />
+
+                    <RelativeLayout
+                        android:id="@+id/text_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/imageView_phone" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="7dp"
+                            android:gravity="right"
+                            android:text="了解我们渠道:"
+                            android:textColor="#4c4c4c"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+
+                <com.surong.leadloan.ui.AutoLineFeedLayout
+                    android:id="@+id/know_us_way"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/way_0"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:button="@null"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="商务经理" />
+
+                        <RadioButton
+                            android:id="@+id/way_1"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:button="@null"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="网上搜索" />
+
+                        <RadioButton
+                            android:id="@+id/way_2"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:button="@null"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="同行介绍" />
+
+                        <RadioButton
+                            android:id="@+id/way_3"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:button="@null"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="宣传活动" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/way_4"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:button="@null"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="其他" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/way_Lin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dip"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/way_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:hint="请填写推荐给您的商务顾问姓名..."
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="#696969"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:background="#f7f5f5" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dip"
+                android:layout_marginRight="23dip"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView_phone12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/intest" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/imageView_phone12" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="7dp"
+                            android:gravity="right"
+                            android:text="您的兴趣爱好:"
+                            android:textColor="#4c4c4c"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+
+                <com.surong.leadloan.ui.AutoLineFeedLayout
+                    android:id="@+id/hobby"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/interest_0"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="足球" />
+
+                        <Button
+                            android:id="@+id/interest_1"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="篮球" />
+
+                        <Button
+                            android:id="@+id/interest_2"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="羽毛球" />
+
+                        <Button
+                            android:id="@+id/interest_3"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="乒乓球" />
+
+                        <Button
+                            android:id="@+id/interest_4"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="游泳" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/interest_5"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="户外旅行" />
+
+                        <Button
+                            android:id="@+id/interest_6"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="K歌" />
+
+                        <Button
+                            android:id="@+id/interest_7"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="阅读" />
+
+                        <Button
+                            android:id="@+id/interest_8"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="电影" />
+
+                        <Button
+                            android:id="@+id/interest_9"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="音乐" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/interest_10"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="美食" />
+
+                        <Button
+                            android:id="@+id/interest_11"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="其他" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/interest_lin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dip"
+                    android:layout_marginTop="20dip"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/interest_edit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:hint="您可以输入您的兴趣爱好..."
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="#696969"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="8dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:background="#f7f5f5" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView_phone13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/hope" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/imageView_phone13" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="7dp"
+                            android:gravity="right"
+                            android:text="您最希望我们能为您提供什么服务:"
+                            android:textColor="#4c4c4c"
+                            android:textSize="15sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+
+                <com.surong.leadloan.ui.AutoLineFeedLayout
+                    android:id="@+id/expect_service"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/service_1"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="认识更多同行" />
+
+                        <Button
+                            android:id="@+id/service_2"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="找项目/客户" />
+
+                        <Button
+                            android:id="@+id/service_3"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="有效管理客户" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/service_4"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="转让多余项目" />
+
+                        <Button
+                            android:id="@+id/service_5"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="发布资金广告" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/service_6"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="帮我消化废单，成了分给我介绍费" />
+
+                        <Button
+                            android:id="@+id/service_7"
+                            style="@style/button_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="14dip"
+                            android:background="@drawable/shape_bg"
+                            android:paddingBottom="7dp"
+                            android:paddingLeft="10dip"
+                            android:paddingRight="10dp"
+                            android:paddingTop="7dp"
+                            android:text="其他" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dip"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edi_service"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:hint="我们会根据您的意见不断完善..."
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="#696969"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"
+                    android:background="#e7e7e7" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginLeft="23dip"
+                android:layout_marginRight="23dip"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/next_button1"
+                android:text="下一步"
+                android:textColor="#FFFF"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

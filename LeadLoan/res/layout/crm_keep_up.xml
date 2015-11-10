@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/lin_keep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="26dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rectangle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rectangle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rectangle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rectangle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oval2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rectangle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/lin_keep"
+            android:orientation="vertical" >
+            <LinearLayout 
+                android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="客户资质（公司）"
+                android:textColor="#e33b45"
+                android:textSize="12sp" />
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:text="11月20号 12:34"
+                android:textColor="#9b9b9b"
+                android:textSize="9sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+            <LinearLayout 
+                android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="设置提醒"
+                android:textColor="#4b4b4b"
+                android:textSize="12sp" />
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:text="11月20号 12:34"
+                android:textColor="#9b9b9b"
+                android:textSize="9sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+            <LinearLayout 
+                android:layout_width="wrap_content"
+             android:layout_height="37dp"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+               android:text="设置提醒"
+                android:textColor="#4b4b4b"
+                android:textSize="12sp" />
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:text="11月20号 12:34"
+                android:textColor="#9b9b9b"
+                android:textSize="9sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+            <LinearLayout 
+                android:layout_width="wrap_content"
+             android:layout_height="37dp"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="设置提醒"
+                android:textColor="#4b4b4b"
+                android:textSize="12sp" />
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:text="11月20号 12:34"
+                android:textColor="#9b9b9b"
+                android:textSize="9sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+            <LinearLayout 
+                android:layout_width="wrap_content"
+           android:layout_height="37dp"
+            android:layout_marginTop="21dp"
+            android:orientation="vertical"
+                >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="设置提醒"
+                android:textColor="#4b4b4b"
+                android:textSize="12sp" />
+             <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp"
+                android:text="11月20号 12:34"
+                android:textColor="#9b9b9b"
+                android:textSize="9sp" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#d8e8f7" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_title_bar1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="备注好友"
+            android:textColor="#4c4c4c"
+            android:textSize="16sp" />
+
+        <EditText
+            android:singleLine="true"
+            android:id="@+id/remark_friend"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/remark_name_edge"
+            android:ems="10"
+            android:hint="请输入您想要的备注名称"
+            android:paddingLeft="10dp"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/ChatUIDemo/res/layout/remark_friend_activity.xml -->

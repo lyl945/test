@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient android:startColor="#CCFFFFFF" 
+        android:endColor="#CCFFFFFF"/>
+    <corners android:radius="6dp"/>
+    <stroke android:width="1px" android:color="#CFFFFFFF"/>
+</shape><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/c_input_dialog_bg.xml --><!-- From: file:/F:/android/test/LeadLoan/build/intermediates/exploded-aar/test/ChatUIDemo/unspecified/res/drawable/c_input_dialog_bg.xml -->

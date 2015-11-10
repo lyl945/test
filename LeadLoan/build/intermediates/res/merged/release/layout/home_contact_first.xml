@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_friend_recommend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#e7e7e7" />
+
+    
+        <TextView
+            android:id="@+id/label_contact_friends"
+            android:layout_marginLeft="22dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您通讯录的好友 等 0 个好友也在这里，去打个招呼吧！"
+            android:singleLine="false"
+            android:textColor="#707070"
+            android:textSize="12sp" />
+
+        
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="14dp"
+        android:background="#dddddd" />
+
+    
+    <RelativeLayout
+        android:clickable="true"
+        android:id="@+id/section_contact_friend_handler"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        <LinearLayout
+        android:id="@+id/section_contact_fiend_headers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/myfriends"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/transparent" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/transparent" />
+
+        
+    </LinearLayout>
+    
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/put_away" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="14dp"
+        android:background="#e7e7e7" />
+
+    
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/home_contact_first.xml -->

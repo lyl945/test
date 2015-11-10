@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:background="@drawable/button_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/relative_1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/peer"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="找同行"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/image_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/neighborhood"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="附近的同行"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/image_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/icon_maybe"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="可能认识"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/image_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/contacts"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:clickable="false"
+                android:focusable="false"
+                android:text="通讯录"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/section_auth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <include layout="@layout/home_auth_first" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/section_contact_friends"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <include layout="@layout/home_contact_first" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/section_upload_contact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <include layout="@layout/home_upload_contact" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/section_xdjl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp" >
+
+            <include layout="@layout/home_recommend_first" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1080dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:layout_marginRight="23dip"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="57dp" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/person" />
+
+                <com.surong.leadloan.ui.ClearEditText
+                    android:id="@+id/ediText_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="5dip"
+                    android:layout_toRightOf="@id/imageView_phone"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:hint="请输入您的用户名/手机号"
+                    android:inputType="phone"
+                    android:paddingRight="12dp"
+                    android:singleLine="true"
+                    android:textColor="#717171"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dfdfdf" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="57dp" >
+
+                <ImageView
+                    android:id="@+id/imageView_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/account" />
+
+                <com.surong.leadloan.ui.ClearEditText
+                    android:id="@+id/ediText_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="11dip"
+                    android:layout_toRightOf="@id/imageView_password"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:hint="请输入您的密码..."
+                    android:inputType="textPassword"
+                    android:paddingRight="12dp"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textColorHint="#717171"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#dfdfdf" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dip"
+                android:layout_marginRight="23dip"
+                android:layout_marginTop="28dip"
+                android:background="@drawable/title_red_selector"
+                android:text="登录"
+                android:textColor="@color/text_white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/text_forgetpwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="24dip"
+                android:layout_marginTop="15dp"
+                android:text="忘记密码?"
+                android:textColor="#352f24"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_regist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="119dip"
+                android:background="@drawable/add_button"
+                android:text="创建账户"
+                android:textColor="@color/text_black"
+                android:textSize="11sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="0dip"
+                android:layout_marginTop="43dip"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:id="@+id/service_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dip"
+                    android:text="客服电话:400-0077-100"
+                    android:textColor="@color/text_black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/login.xml -->

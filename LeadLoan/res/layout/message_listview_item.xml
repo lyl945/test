@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="68dp"
+    android:clickable="true"
+    android:longClickable="true"
+    android:id="@+id/msg_item_ctr"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/message_item_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/head1" />
+    
+    
+    <TextView
+        android:id="@+id/message_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="8dp"
+        
+        android:text="12:00"
+        android:textColor="#c1c1c1"
+        android:textSize="7sp" />
+    <Button 
+        android:id="@+id/message_item_msg_count"
+        android:layout_below="@+id/message_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/message_item_time"
+        android:layout_marginTop="4dp"
+        android:text="1"
+        android:textColor="#ffffff"
+        android:textSize="9sp"
+        android:clickable="false"
+        android:background="@drawable/message_bg"
+        />
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/message_item_icon"
+        android:layout_toLeftOf="@+id/message_item_msg_count"
+        android:gravity="center_vertical|left"
+        android:layout_marginRight="8dp"
+        android:clickable="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/message_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="李经理"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#303030"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/message_item_message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="哈哈哈哈哈哈啊"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="#787878"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="22dp"
+        android:background="#f3f3f3" >
+    </View>
+
+</RelativeLayout>

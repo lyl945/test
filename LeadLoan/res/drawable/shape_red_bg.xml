@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置原角度 -->
+    <corners android:radius="2dip" />
+
+    <!-- 设置实心颜色 -->
+    <solid android:color="#d9e8f7" />
+
+    <!-- 设置边框线 -->
+    <stroke
+        android:width="1dip"
+        android:color="#7098c0" />
+    <!-- 偏距 -->
+    <!--
+         <padding
+        android:bottom="1dip"
+        android:left="1dip"
+        android:right="1dip"
+        android:top="1dip" />
+    -->
+
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@color/gray" android:state_pressed="true"></item>
+	<item android:drawable="@android:color/white"></item>
+</selector><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/group_label_backgroud_selector.xml --><!-- From: file:/F:/android/test/ChatUIDemo/build/intermediates/bundles/debug/res/drawable/group_label_backgroud_selector.xml -->

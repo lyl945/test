@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient 
+        android:startColor="@color/clickable_bg_start"
+        android:centerColor="@color/clickable_bg_center"
+        android:endColor="@color/clickable_bg_end"
+        android:centerY="0.6"
+        android:angle="-90"/>
+</shape><!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/clickable_mid_bg.xml -->

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="unspecified"><source path="F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\PullToRefresh_library\unspecified\assets"/></dataSet><dataSet config="unspecified"><source path="F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\assets"/></dataSet><dataSet config="main"><source path="F:\android\test\LeadLoan\assets"/></dataSet><dataSet config="debug"><source path="F:\android\test\LeadLoan\build-types\debug\assets"/></dataSet></merger>

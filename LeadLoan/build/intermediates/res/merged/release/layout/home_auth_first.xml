@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e7e7e7" />
+
+        <LinearLayout
+            android:id="@+id/authentication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/auth_head"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/head1" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lin_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/identity" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dip"
+                        android:text="您的个人"
+                        android:textColor="#707070"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/id_certify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="身份认证"
+                        android:textColor="#0075c0"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/id_certify_situation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="尚未提交"
+                        android:textColor="#707070"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_id2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lin_id"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/fen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mechanism" />
+
+                    <TextView
+                        android:id="@+id/money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="您的"
+                        android:textColor="#707070"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/institute_certify"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:text="机构认证"
+                        android:textColor="#0075c0"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/institute_certify_situation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:text="未认证"
+                        android:textColor="#707070"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <!--
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/identity"
+                    android:text="您的个人身份认证尚未提交"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:drawableLeft="@drawable/mechanism"
+                    android:text="您的机构认证正在审核"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp" />
+                -->
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/gotorenzheng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="22dp"
+                android:background="@drawable/attestation_frame"
+                android:text="去认证"
+                android:textColor="@color/title_red"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/layout_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="你的身份还未认证，认证后可以管理人脉，"
+                    android:textColor="#707070"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="聊天约饭"
+                    android:textColor="#707070"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginTop="7dp"
+                android:text="，心动就快快行动吧"
+                android:textColor="#707070"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="14dp"
+                android:background="#e7e7e7" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/home_auth_first.xml -->

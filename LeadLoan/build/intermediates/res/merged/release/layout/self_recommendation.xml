@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="22dp"
+        android:paddingTop="28dp" >
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/mortgage" />
+
+             <TextView
+                 android:id="@+id/mytext1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage1"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="红本抵押业务 "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage1"
+                 android:layout_below="@+id/mytext1"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="深圳本地商品住宅,写字楼,商铺抵押贷款,额度3000万以内,折扣率80%以内,个别可放大 "
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        
+         <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/car" />
+
+             <TextView
+                 android:id="@+id/mytext2"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage2"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="车辆质押业务 "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage2"
+                 android:layout_below="@+id/mytext2"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="家用/营运车辆押车,额度200万以内,折扣率70%以内,个别可放大"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/shares" />
+
+             <TextView
+                 android:id="@+id/mytext3"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage3"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="股票质押业务 "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage3"
+                 android:layout_below="@+id/mytext3"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="主板，中小板，创业板股票质押，非ST，额度5000万以内，折扣率50%以内;"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/salary" />
+
+             <TextView
+                 android:id="@+id/mytext4"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage4"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="薪金贷(面向上班族) "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage4"
+                 android:layout_below="@+id/mytext4"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="打卡工资高于3000，信用记录良好/有少数逾期，额度30万以内；部分打卡部分现金合计收入高于4000，打卡部分高于3000，信用良好/有少数逾期，额度30万以内;"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/transaction" />
+
+             <TextView
+                 android:id="@+id/mytext5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage5"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="生意贷(面向企业主，个体户)"
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage5"
+                 android:layout_below="@+id/mytext5"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="注册地为本地，经营年限一年以上，总经营收入月流水大于2万，有营业执照，额度1000万以内;"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/car_owner" />
+
+             <TextView
+                 android:id="@+id/mytext6"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage6"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="车主贷(面向有车客户) "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage6"
+                 android:layout_below="@+id/mytext6"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="年龄21—55,车辆估值8万元以上，额度20万以内，押证不押车，信用记录良好/有少数逾期;"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+             <ImageView
+                 android:id="@+id/myimage7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="17dp"
+                android:src="@drawable/parts" />
+
+             <TextView
+                 android:id="@+id/mytext7"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage7"
+                 android:layout_marginLeft="8dp"
+                 android:layout_marginTop="28dp"
+                 android:gravity="center_horizontal"
+                 android:text="不限 "
+                 android:textColor="#333333"
+                 android:textSize="14sp" />
+              <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@+id/myimage7"
+                 android:layout_below="@+id/mytext7"
+                 android:layout_marginLeft="8dp"
+                 android:lineSpacingExtra="8dp"
+                 android:layout_marginTop="11dp"
+                 android:text="您暂时不能操作的单，让我们试试能否帮您赠取新价值，成功后您即可获得高达50%的佣金分成!快来翻翻角落里还有什么宝贝吧！"
+                 android:textColor="#555555"
+                 android:textSize="12sp" />
+        </RelativeLayout>
+        </LinearLayout>
+        <View
+                android:layout_marginTop="15dp"
+                android:layout_width="313dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="1dp"
+                android:background="#e7e7e7" />
+
+      
+        
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/F:/android/test/LeadLoan/res/layout/self_recommendation.xml -->

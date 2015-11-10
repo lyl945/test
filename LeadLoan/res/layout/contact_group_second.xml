@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <SearchView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dip"
+        android:iconifiedByDefault="false"
+        android:inputType="textFilter"
+        android:queryHint="搜索好友列表"
+        ></SearchView>
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dip"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/imageBtn_1"
+            android:text="同行"
+            android:layout_margin="10dip"
+           android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+            />
+        <Button 
+            android:id="@+id/imageBtn_2"
+            android:text="附近"
+            android:layout_margin="10dip"
+           android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+            />
+        <Button 
+            android:id="@+id/imageBtn_3"
+            android:text="通讯录"
+            android:layout_margin="10dip"
+           android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+            />
+        <Button 
+            android:id="@+id/imageBtn_4"
+            android:text="可能认识"
+            android:layout_margin="10dip"
+           android:layout_height="wrap_content"
+        android:layout_width="wrap_content" 
+            />
+    </LinearLayout>
+    <ExpandableListView 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dip"
+        ></ExpandableListView>
+    
+
+</LinearLayout>

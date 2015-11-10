@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">领贷</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="declare">　　速融100致力于为用户提供专业的综合贷款垂直搜索服务。我们的团队过往曾有多年服务银行、信托公司、典当行、软件公司、互联网公司的工作经验，将根据每个客户的不同情况为客户搜索比较适合的贷款产品并实现在线申请或咨询。
+\n　　通过速融100与银行、小贷公司、典当行、民间贷款机构、担保公司以及中介等的合作，实现融资方与资金方直接联系对接，打破行业信息不对称，让融资方能够以更高效率比较多款贷款产品并最大限度降低信息不对称所带来的贷款成本增加；
+\n　　同时，我们也为信贷经理提供贷款产品直销的平台，在这里您可以直接面向意向客户推广介绍自己的各个贷款产品，实现精准营销，大幅降低传统营销成本，并能够获得意向客户的直接联系方式从而更有效地拓展客户资源；除此之外，我们还将为信贷经理提供更多精深化服务，帮助信贷经理更好地获得项目信息和优质客户；
+\n　　任何与速融100网站有意向合作或已经合作的机构和个人须认真阅读该声明，并保持、接受和遵守该声明对自身权利和义务的约定。</string>
+    <string name="declare1">　　1、 速融100网站接受信贷机构或信贷经理的申请及委托，按照信贷机构或信贷经理提供的贷款要求，受理融资方的贷款申请，审核筛选匹配双方的需求，并尽力促成信贷机构或信贷经理与融资方实现联系合作。</string>
+    <string name="declare2">　　2 、信贷机构应确保自身具备从事贷款业务的资质，信贷经理应确保所属机构具备从事贷款业务的资质，本人为该机构正式员工，有权利发布贷款产品信息，有权利通过速融100寻找融资方并实现和速融100的各项合作，并已获得从事贷款或合作业务所必要的授权；</string>
+    <string name="declare3">　　3、信贷机构或信贷经理应确保填写的各项信息（包括但不限于姓名、身份证号、任职机构及职务、产品及项目信息、联系方式等）必须真实、准确、有效，并应向速融100网站明确信贷机构或信贷经理所提供的贷款产品及接受的融资方条件，同时根据实际情况向速融100对上述信息进行及时更新。</string>
+    <string name="declare4">　　4、 信贷机构或信贷经理应确保向速融100网站提供的产品信息（包括但不限于申请条件、收费方式等信息）符合信贷机构或信贷经理所在机构的官方描述并应承担相应责任。如有不符，速融100网站有权依据信贷机构或信贷经理所在机构的官方描述进行修改。</string>
+    <string name="declare5">　　5、信贷经理保证在为速融100的融资方客户提供服务的过程中，不收取其所属机构或自身明确公示以外的任何其他费用；</string>
+    <string name="declare6">　　6、信贷经理严禁在未经融资方许可的情况下将融资方的任何信息向第三方泄露，尤其是不能够泄露融资方的个人信息及联系方式，若融资方的贷款申请无法获得信贷经理及或所属机构的审批，信贷经理可以向借款人推荐其他具备资质的信贷机构，但应提前取得融资方的书面许可，否则速融100有权取消与信贷经理的合作；</string>
+    <string name="declare7">　　7、信贷经理理解并确认速融100对信贷机构及或信贷经理与融资方之间产生的争议无关，亦不会对此承担责任。</string>
+    <string name="declare8">　　8、速融100网站将不断完善搜索匹配机制，对于信贷机构或信贷经理提出的合理建议，速融100网站应积极反馈并作出改进。</string>
+    <string name="declare9">　　9、速融100网站向信贷机构或信贷经理提供的融资方资料或申请人资料完全基于融资方或申请人的自愿填写，速融100网站不对融资方或申请人资料的真实性负责，亦不会影响信贷机构或信贷经理的审批工作或合作。</string>
+    <string name="declare10">　　10、信贷机构或信贷经理在收到融资方申请资料后应在24小时内与融资方取得联系并积极主动跟进服务；并应及时向速融100网站反馈融资方贷款申请的进展。</string>
+    <string name="declare11">　　11、信贷机构和信贷经理应秉承公平、合法的原则，不恶意对网站进行诽谤攻击或发布虚假消息欺瞒用户，信贷机构或信贷经理注册即视为同意接受速融100网站的各项服务规则和条款及修改。</string>
+    <string name="declare12">　　12、速融100网站确认速融100网站在本协议项下提供的垂直搜索服务不会侵犯融资方的合法权益。</string>
+    <string name="city">城市：</string>
+    <string name="institution_type">机构类型</string>
+    <string name="institution_abbr">机构简称</string>
+    <string name="real_name">真实姓名</string>
+    <string name="search">查找</string>
+    <string name="unadd">未添加</string>
+    <string name="added">已添加</string>
+    <string name="waiting_accepted">等待验证</string>
+    <string name="invite">发邀请</string>
+    <string name="add_friend">加好友</string>
+    <string name="send_invite">发邀请</string>
+    <string name="recommend_abstract">目前比较活跃的信贷经理，快去认识一下吧</string>
+    <string name="recommend">推荐</string>
+    <string name="message">我正在用领贷同业APP与上千信贷经理交流，快快加入吧 http://m.surong100.com/app</string>
+    <string name="headphoto_dialog_add">添加照片</string>
+    <string name="headphoto_dialog_choose">选取相册图片</string>
+    <string name="headphoto_dialog_shoot">现在拍摄</string>
+    <string name="nickname_quxiao">取消</string>
+    <string name="message1">我正在用领贷同业App与上千信贷经理交流，快快加入吧http://www.surong100.com/ffshcredit/index</string>
+
+    <string-array name="tab_image">
+        <item>@drawable/connection</item>
+        <item>@drawable/list</item>
+        <item>@drawable/mess</item>
+        <item>@drawable/customer</item>
+        <item>@drawable/personal</item>
+    </string-array>
+    <string-array name="tab_image_pressed">
+        <item>@drawable/connection2</item>
+        <item>@drawable/list2</item>
+        <item>@drawable/mess2</item>
+        <item>@drawable/customer2</item>
+        <item>@drawable/personal2</item>
+    </string-array>
+
+    <string name="m_introduce">从事信贷行业两年半，你值得信赖的贷款专家，息少、正规才是正经事！从事信贷行业两年</string>
+    <string name="setting_open_information">当您开启此项后，其他信贷经理可以看到您的职务、从业时间、机构任职时间、邮箱信息。可以加强信贷经理对您的信任，有助于其他信贷经理添加您为好友</string>
+    <string name="setting_open_advance_information">当您开启此项后，其他信贷经理可以看到您的真实姓名、手机号、个人头像的信息。可以加强信贷经理对您的信任，有助于其他信贷经理添加您为好友</string>
+    <string name="apply_add">加好友</string>
+    <string name="apply_accepted">已添加</string>
+    <string name="apply_ignored">已忽略</string>
+    <string name="apply_irefused">已拒绝</string>
+    <string name="add_friend_group">分组</string>
+    <string name="add_friend_verify">验证信息:</string>
+    <string name="add_friend_send_apply">发送申请</string>
+    <string name="add_friend_title">添加好友</string>
+    <string name="add_friend_success">添加请求已发送，等待对方验证</string>
+    <string name="add_friend_fail">添加失败，请稍后重试</string>
+    <string name="label_ok">确定</string>
+    <string name="add_action">添加</string>
+    <string name="group_friend">好友</string>
+    <string name="group_workmate">同事</string>
+    <string name="accept_friend_apply_fail">同意加好友失败，请重新尝试</string>
+    <string name="accept_friend_apply_succ">你已成功添加%s为好友</string>
+    <string name="confirm_delete">你确定要删除 \"%s\" 吗？</string>
+    <string name="title_delete_friend">删除好友\"%s\"</string>
+    <string name="label_delete">删除</string>
+    <string name="delete_fail">删除失败，请稍后重试</string>
+    <string name="delete_succ">删除成功</string>
+
+</resources>

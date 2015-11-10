@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:background="@drawable/title_function_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/remark_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_bj"
+            android:drawableLeft="@drawable/icon_remarks"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="备注好友"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/check_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_bj"
+            android:drawableLeft="@drawable/icon_shop"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="查看E店"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/move_packet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_bj"
+            android:drawableLeft="@drawable/icon_delete"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="移动分组"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:id="@+id/delete_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/options_bj"
+            android:drawableLeft="@drawable/icon_grouping"
+            android:drawablePadding="10dp"
+            android:padding="12dp"
+            android:text="删除好友"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/ChatUIDemo/res/layout/more_menu.xml --><!-- From: file:/F:/android/test/ChatUIDemo/build/intermediates/bundles/debug/res/layout/more_menu.xml -->

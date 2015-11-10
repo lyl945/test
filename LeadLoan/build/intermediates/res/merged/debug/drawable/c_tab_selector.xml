@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="false" android:drawable="@drawable/bg_transparent"></item>
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="true" android:drawable="@drawable/tab_on"></item>
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="false" android:drawable="@drawable/tab_on"></item>
+    <item android:state_focused="true" android:state_pressed="false" android:state_selected="true" android:drawable="@drawable/tab_on"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/tab_on"></item>
+
+</selector>
+<!-- From: file:/F:/android/test/ChatUIDemo/res/drawable/c_tab_selector.xml --><!-- From: file:/F:/android/test/LeadLoan/build/intermediates/exploded-aar/test/ChatUIDemo/unspecified/res/drawable/c_tab_selector.xml -->

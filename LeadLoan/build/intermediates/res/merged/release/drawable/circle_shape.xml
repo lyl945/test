@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="100dp" />
+
+    <solid android:color="#7f000000" />
+
+</shape><!-- From: file:/F:/android/test/LeadLoan/res/drawable/circle_shape.xml -->

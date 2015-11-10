@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChatUIDemo/ChatUIDemo.iml" filepath="$PROJECT_DIR$/ChatUIDemo/ChatUIDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeadLoan/LeadLoan.iml" filepath="$PROJECT_DIR$/LeadLoan/LeadLoan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToRefresh_library/PullToRefresh_library.iml" filepath="$PROJECT_DIR$/PullToRefresh_library/PullToRefresh_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+    </modules>
+  </component>
+</project>

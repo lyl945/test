@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout_state_99"
+    android:orientation="vertical" >
+   <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="12dp"
+            >
+            <TextView
+                android:id="@+id/main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="客户名称：" />
+            <EditText
+                android:id="@+id/main_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:visibility="gone"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:background="@null"
+                android:layout_marginLeft="120dp"
+                android:text="个人" />
+            
+            <TextView
+                android:id="@+id/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:text="放款金额：" />
+            <EditText
+                android:id="@+id/lendAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:background="@null"
+                android:hint="请输入放款金额"
+                android:layout_marginLeft="120dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/lendAmount"
+                android:text="万元" />
+             <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/money"
+                 android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:text="放款期限：" />
+            <EditText
+                android:id="@+id/lendPeriod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/money"
+                android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:background="@null"
+                android:layout_alignLeft="@id/lendAmount"
+                android:hint="请输入放款期限" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/money"
+               android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/lendPeriod"
+                android:text="个月" />
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                 android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:text="月均总成本：" />
+            <EditText
+                android:id="@+id/ratePerMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:background="@null"
+                android:layout_alignLeft="@id/lendAmount"
+                android:hint="请输入月均成本" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/date"
+                
+                android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/ratePerMonth"
+                android:text="%" />
+             <TextView
+                android:id="@+id/way"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sum"
+                android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:text="放款时间：" />
+            <EditText
+                android:id="@+id/lendDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_below="@id/sum"
+               android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:background="@null"
+                android:layout_alignLeft="@id/lendAmount"
+                android:hint="请输入放款时间"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_below="@id/sum"
+               android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:textSize="14sp"
+                android:layout_toRightOf="@id/lendDate"
+                android:text="天" />
+            <TextView
+                android:id="@+id/province"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/way"
+                android:layout_marginTop="14dp"
+                android:textColor="#555555"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:text="申报时间：" />
+            <EditText
+                android:id="@+id/apply_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_below="@id/way"
+                android:layout_marginTop="14dp"
+                android:textColor="#303030"
+                android:visibility="gone"
+                android:textSize="14sp"
+                android:background="@null"
+                android:layout_alignLeft="@id/lendAmount"
+                android:text="2015-9-8" />
+
+            
+            
+        </RelativeLayout>
+        <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    
+                    android:background="#e3e3e3" />
+        <LinearLayout
+        android:id="@+id/status_per_06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="抵质押担保方式" />
+
+        <CheckBox
+            android:id="@+id/check_28_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="房产抵押" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_28_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="土地在建工程抵押" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_28_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="车辆质押（押车）" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_04"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="股票质押" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_05"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="公司股权质押" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_06"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="特殊抵质押物" >
+        </CheckBox>
+         <CheckBox
+           android:id="@+id/check_28_07"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="房产担保" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_08"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="土地及在建工程担保" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_09"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="车辆抵押（不押车）" >
+        </CheckBox>
+         <CheckBox
+           android:id="@+id/check_28_10"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="个人/公司保证担保" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_11"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="纯信用" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/check_28_12"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="其他" >
+        </CheckBox>
+         
+
+        <TextView
+            android:textSize="14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="产品用途" />
+
+        <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="房地产贷款" >
+        </CheckBox>
+
+        <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="不限用途" >
+        </CheckBox>
+
+        <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="经营周转" >
+        </CheckBox>
+
+        <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="购车贷款" >
+        </CheckBox>
+         <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="个人消费" >
+        </CheckBox>
+         <CheckBox
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="购房贷款" >
+        </CheckBox>
+         <CheckBox
+            android:id="@+id/status_per_06_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"
+            android:button="@drawable/checkbox_selector"
+            android:text="其他" >
+        </CheckBox>
+         <TextView
+           android:textSize="14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="还款方式" />
+
+        <CheckBox
+           android:id="@+id/check_29_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="先息后本" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_29_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="等本等息" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_29_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="等额本息" >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check_29_04"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="等额本金" >
+        </CheckBox>
+
+        
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/state_99.xml -->

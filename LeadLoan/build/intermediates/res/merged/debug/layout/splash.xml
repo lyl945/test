@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_20"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/dian_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dian_pressed" />
+            <ImageButton
+                android:id="@+id/dian_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin_10"
+                android:background="@drawable/dian" />
+            <ImageButton
+                android:id="@+id/dian_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin_10"
+                android:background="@drawable/dian" />
+            <ImageButton
+                android:id="@+id/dian_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_margin_10"
+                android:background="@drawable/dian" />
+        </LinearLayout>
+       
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/splash.xml -->

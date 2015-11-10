@@ -1,0 +1,1362 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:2:1-940:12
+	xmlns:android
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:2:11-69
+	package
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:3:5-34
+	android:versionName
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:4:5-30
+		INJECTED from F:\android\test\LeadLoan\AndroidManifest.xml
+		INJECTED from F:\android\test\LeadLoan\AndroidManifest.xml
+uses-sdk
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:7:5-9:41
+MERGED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.0] F:\android\test\LeadLoan\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [test:PullToRefresh_library:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\PullToRefresh_library\unspecified\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:23.1.0] F:\android\test\LeadLoan\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.VIBRATE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.INTERNET
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:13:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.CAMERA
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:17:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:25:22-81
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:29:5-68
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:29:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:31:5-76
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:31:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:33:5-76
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:33:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:35:5-68
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:35:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:37:5-80
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:37:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:39:5-75
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:39:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:41:5-81
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:41:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:43:5-71
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:43:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:45:5-74
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:45:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:47:5-74
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:47:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:49:5-80
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:49:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:50:5-85
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:50:22-82
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:52:5-75
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:52:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:54:5-73
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:54:22-70
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:56:5-78
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:56:22-75
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:58:5-81
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:58:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:60:5-81
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:60:22-78
+uses-permission#android.permission.READ_LOGS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:62:5-68
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:62:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:64:5-69
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:64:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:66:5-67
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:66:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:68:5-72
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:68:22-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:70:5-68
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:70:22-65
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:94:5-72
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:94:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:106:6-70
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:106:23-68
+uses-permission#android.permission.READ_SMS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:110:2-63
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:110:19-61
+uses-permission#android.permission.WRITE_SMS
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:112:2-65
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:112:19-62
+application
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:114:5-938:19
+MERGED from [com.android.support:support-v4:23.1.0] F:\android\test\LeadLoan\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [test:PullToRefresh_library:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\PullToRefresh_library\unspecified\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:23.1.0] F:\android\test\LeadLoan\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:118:9-41
+	android:allowBackup
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:116:9-35
+	android:icon
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:117:9-43
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:119:9-62
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:115:9-61
+activity#com.surong.leadloan.start.SplashActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:123:9-132:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:126:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:125:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:124:13-68
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:127:13-131:29
+action#android.intent.action.MAIN
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:128:17-69
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:128:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:130:17-77
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:130:27-74
+receiver#com.surong.leadloan.SettingActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:134:9-144:20
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:134:19-49
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:135:13-137:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:136:17-79
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:136:25-76
+intent-filter#com.surong.leadloan.ACTION_ALARM
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:138:13-140:29
+action#com.surong.leadloan.ACTION_ALARM
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:139:17-75
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:139:25-72
+intent-filter#com.surong.leadloan.ACTION_RESET_ALARM
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:141:13-143:29
+action#com.surong.leadloan.ACTION_RESET_ALARM
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:142:17-81
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:142:25-78
+activity#com.surong.leadloan.start.GuideActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:146:9-151:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:150:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:149:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:148:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:147:13-67
+activity#com.surong.leadloan.start.WelcomeActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:152:9-157:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:156:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:155:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:154:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:153:13-69
+activity#com.surong.leadloan.activity.personal.WelcomeActivity1
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:158:9-163:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:162:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:161:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:160:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:159:13-82
+activity#com.surong.leadloan.activity.personal.WelcomeActivity2
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:164:9-169:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:168:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:166:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:165:13-82
+activity#com.surong.leadloan.activity.personal.WelcomeActivity3
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:170:9-175:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:174:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:173:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:172:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:171:13-82
+activity#com.surong.leadloan.start.LoginActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:176:9-181:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:180:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:179:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:178:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:177:13-67
+activity#com.surong.leadloan.activity.personal.OldFunctionIntroduction
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:182:9-187:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:186:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:185:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:184:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:183:13-89
+activity#com.surong.leadloan.activity.personal.NewFunctionIntroduction
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:188:9-193:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:192:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:191:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:190:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:189:13-89
+activity#com.surong.leadloan.activity.personal.AboutReceiveLoanActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:194:9-199:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:198:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:197:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:196:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:195:13-90
+activity#com.surong.leadloan.start.RegisterActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:200:9-205:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:204:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:203:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:202:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:201:13-70
+activity#com.surong.leadloan.start.RegisterCompleteOneActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:206:9-219:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:210:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:209:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:208:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:207:13-81
+activity#com.surong.leadloan.start.CitySelectActivity2
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:220:9-225:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:224:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:223:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:222:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:221:13-73
+activity#com.surong.leadloan.start.RegisterCompleteTwoActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:226:9-239:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:230:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:228:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:227:13-81
+activity#com.surong.leadloan.start.RegisterDeclareActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:240:9-245:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:244:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:243:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:242:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:241:13-77
+activity#com.surong.leadloan.start.ForgetPasswordActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:246:9-251:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:250:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:249:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:248:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:247:13-76
+activity#com.surong.leadloan.start.SetPwdActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:252:9-257:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:256:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:255:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:254:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:253:13-68
+activity#com.surong.leadloan.start.MainActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:258:9-272:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:262:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:261:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:260:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:259:13-66
+activity#com.surong.leadloan.start.InstituteActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:273:9-278:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:277:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:276:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:275:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:274:13-71
+activity#com.surong.leadloan.activity.contact_group.PeerActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:282:9-287:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:286:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:285:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:284:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:283:13-83
+activity#com.surong.leadloan.activity.contact_group.CitySelectActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:288:9-293:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:292:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:291:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:290:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:289:13-89
+activity#com.surong.leadloan.activity.contact_group.FriendsActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:294:9-299:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:298:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:297:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:296:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:295:13-86
+activity#com.surong.leadloan.activity.contact_group.NearPeerActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:300:9-305:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:304:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:303:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:302:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:301:13-87
+activity#com.surong.leadloan.activity.contact_group.PossibleKnowActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:306:9-311:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:310:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:309:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:308:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:307:13-91
+activity#com.surong.leadloan.activity.contact_group.ContactListActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:312:9-317:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:316:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:315:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:314:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:313:13-90
+activity#com.surong.leadloan.activity.AddressBookGet
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:318:9-331:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:322:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:321:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:320:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:319:13-71
+activity#com.surong.leadloan.activity.AddressBookExplain
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:332:9-337:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:336:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:335:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:334:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:333:13-75
+activity#com.surong.leadloan.activity.AddressBook
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:338:9-343:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:342:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:341:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:340:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:339:13-68
+activity#com.surong.leadloan.activity.personal.MShopActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:344:9-354:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:348:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:347:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:346:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:345:13-79
+intent-filter#android.intent.action.SENDTO+android.intent.category.DEFAULT
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:349:13-353:29
+action#android.intent.action.SENDTO
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:350:17-71
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:350:25-68
+category#android.intent.category.DEFAULT
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:352:17-76
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:352:27-73
+activity#com.surong.leadloan.activity.personal.AboutActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:355:9-360:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:359:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:358:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:357:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:356:13-79
+activity#com.surong.leadloan.activity.personal.SettingActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:361:9-366:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:365:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:364:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:363:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:362:13-81
+activity#com.surong.leadloan.activity.personal.ApplyCertification
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:367:9-372:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:371:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:370:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:369:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:368:13-84
+activity#com.surong.leadloan.activity.personal.FinishPersonalInformation
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:373:9-378:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:377:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:376:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:375:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:374:13-91
+activity#com.surong.leadloan.activity.personal.DefaultAvatarActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:379:9-384:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:383:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:382:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:381:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:380:13-87
+activity#com.surong.leadloan.activity.personal.AccountActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:385:9-390:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:389:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:388:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:387:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:386:13-81
+activity#com.surong.leadloan.activity.personal.IntegrationActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:391:9-396:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:395:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:394:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:393:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:392:13-85
+activity#com.surong.leadloan.activity.personal.SecuritiesActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:397:9-402:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:401:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:400:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:399:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:398:13-84
+activity#com.surong.leadloan.activity.personal.SecuritieExchange
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:403:9-408:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:407:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:406:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:405:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:404:13-83
+activity#com.surong.leadloan.activity.personal.IntegralIntroduction
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:409:9-414:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:413:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:412:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:411:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:410:13-86
+activity#com.surong.leadloan.activity.personal.AccountRecharge
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:415:9-420:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:419:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:418:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:417:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:416:13-81
+activity#com.surong.leadloan.activity.personal.MyEvaluate
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:421:9-426:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:425:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:424:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:423:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:422:13-76
+activity#com.surong.leadloan.activity.crm.SpreadOrderDetailActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:427:9-432:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:431:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:430:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:429:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:428:13-86
+activity#com.surong.leadloan.activity.personal.PrivacySettingActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:433:9-438:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:437:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:436:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:435:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:434:13-88
+activity#com.surong.leadloan.activity.personal.ChangePassword
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:439:9-444:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:443:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:442:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:441:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:440:13-80
+activity#com.surong.leadloan.activity.crm.ChangeStatusActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:445:9-450:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:449:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:448:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:447:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:446:13-81
+activity#com.surong.leadloan.activity.crm.ContactActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:451:9-456:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:455:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:454:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:453:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:452:13-76
+activity#com.surong.leadloan.activity.crm.ContactActivity2
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:457:9-462:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:461:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:460:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:459:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:458:13-77
+activity#com.easemob.chatuidemo.activity.ChatActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:481:9-495:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:486:13-55
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:484:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:485:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:482:13-72
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:483:13-43
+activity#com.easemob.chatuidemo.res.ImageBucketChooseActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:497:9-501:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:499:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:500:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:498:13-80
+activity#com.easemob.chatuidemo.res.ImageChooseActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:502:9-506:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:504:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:505:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:503:13-74
+activity#com.easemob.chatuidemo.res.ImageZoomActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:507:9-511:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:509:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:510:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:508:13-72
+activity#com.easemob.chatuidemo.activity.AddContactActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:512:9-516:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:514:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:515:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:513:13-78
+activity#com.easemob.chatuidemo.activity.GroupDetailsActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:518:9-522:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:520:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:521:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:519:13-80
+activity#com.easemob.chatuidemo.activity.GroupsActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:524:9-529:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:528:13-52
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:526:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:527:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:525:13-74
+activity#com.easemob.chatuidemo.activity.NewGroupActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:531:9-536:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:535:13-52
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:533:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:534:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:532:13-76
+activity#com.easemob.chatuidemo.activity.ExitGroupDialog
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:538:9-542:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:540:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:541:13-55
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:539:13-75
+activity#com.easemob.chatuidemo.activity.GroupPickContactsActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:544:9-549:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:548:13-52
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:546:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:547:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:545:13-85
+activity#com.easemob.chatuidemo.activity.BaiduMapActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:551:9-555:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:553:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:554:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:552:13-76
+activity#com.easemob.chatuidemo.activity.NewFriendsMsgActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:558:9-562:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:560:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:561:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:559:13-81
+activity#com.easemob.chatuidemo.activity.ForwardMessageActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:564:9-569:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:568:13-52
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:566:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:567:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:565:13-82
+activity#com.easemob.chatuidemo.activity.ContextMenu
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:571:9-575:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:573:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:574:13-49
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:572:13-71
+activity#com.easemob.chatuidemo.activity.AlertDialog
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:577:9-581:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:579:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:580:13-49
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:578:13-71
+activity#com.easemob.chatuidemo.activity.ShowBigImage
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:583:9-587:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:585:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:586:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:584:13-72
+activity#com.easemob.chatuidemo.activity.ShowNormalFileActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:589:9-593:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:591:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:592:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:590:13-82
+activity#com.easemob.chatuidemo.activity.BlacklistActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:595:9-599:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:597:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:598:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:596:13-77
+activity#com.easemob.chatuidemo.activity.PublicGroupsActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:602:9-607:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:606:13-52
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:604:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:605:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:603:13-80
+activity#com.easemob.chatuidemo.activity.VoiceCallActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:609:9-613:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:611:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:612:13-48
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:610:13-77
+activity#com.easemob.chatuidemo.activity.VideoCallActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:615:9-620:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:618:13-49
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:617:13-74
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:619:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:616:13-77
+activity#com.easemob.chatuidemo.activity.GroupSimpleDetailActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:622:9-626:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:624:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:625:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:623:13-85
+activity#com.easemob.chatuidemo.activity.GroupBlacklistActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:628:9-632:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:630:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:631:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:629:13-82
+activity#com.easemob.chatuidemo.activity.EditActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:633:9-638:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:637:13-55
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:635:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:636:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:634:13-72
+activity#com.easemob.chatuidemo.activity.ShowVideoActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:639:9-644:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:643:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:641:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:642:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:640:13-77
+activity#com.easemob.chatuidemo.activity.RemarkFriendActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:645:9-650:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:649:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:647:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:648:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:646:13-80
+activity#com.easemob.chatuidemo.activity.MovePacketActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:651:9-656:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:655:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:653:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:654:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:652:13-78
+activity#com.easemob.chatuidemo.activity.ImageGridActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:658:9-663:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:662:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:660:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:661:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:659:13-77
+activity#com.easemob.chatuidemo.activity.RecorderVideoActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:664:9-669:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:668:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:666:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:667:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:665:13-81
+activity#com.easemob.chatuidemo.activity.DiagnoseActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:671:9-676:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:675:13-60
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:673:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:674:13-52
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:672:13-76
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:680:9-687:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:686:13-68
+	android:noHistory
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:684:13-37
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:682:13-57
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:685:13-50
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:681:13-66
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:683:13-44
+activity#com.tencent.tauth.AuthActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:690:9-702:20
+	android:noHistory
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:693:13-37
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:691:13-58
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:692:13-44
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:694:13-701:29
+action#android.intent.action.VIEW
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:695:17-69
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:695:25-66
+category#android.intent.category.BROWSABLE
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:698:17-78
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:698:27-75
+data
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:700:17-59
+	android:scheme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:700:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:703:9-706:75
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:705:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:706:13-72
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:704:13-69
+activity#com.surong.leadloan.wxapi.WXEntryActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:709:9-714:75
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:713:13-49
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:711:13-74
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:714:13-72
+	android:exported
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:712:13-36
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:710:13-50
+activity#com.surong.leadloan.yxapi.YXEntryActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:717:9-722:75
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:721:13-49
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:719:13-74
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:722:13-72
+	android:exported
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:720:13-36
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:718:13-50
+activity#com.umeng.socialize.view.CommentActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:728:9-732:20
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:730:13-57
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:731:13-51
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:729:13-68
+activity#com.umeng.socialize.view.CommentDetail
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:733:9-738:20
+	android:noHistory
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:736:13-37
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:735:13-57
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:737:13-51
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:734:13-66
+activity#com.umeng.socialize.view.CommentDetailNoMap
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:739:9-744:20
+	android:noHistory
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:742:13-37
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:741:13-57
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:743:13-51
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:740:13-71
+activity#com.surong.leadloan.activity.NavigationActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:750:9-755:20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:753:13-45
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:752:13-57
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:754:13-44
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:751:13-56
+activity#com.surong.leadloan.activity.SocialHomeActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:756:9-760:20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:759:13-45
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:758:13-57
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:757:13-56
+activity#com.surong.leadloan.activity.SwitchActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:761:9-766:20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:764:13-45
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:763:13-57
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:762:13-52
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:765:13-42
+activity#com.surong.leadloan.activity.CustomPlatformActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:767:9-771:20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:770:13-64
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:769:13-57
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:768:13-60
+activity#com.surong.leadloan.activity.ActionBarExampleDetail
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:772:9-776:20
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:775:13-64
+	android:configChanges
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:774:13-57
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:773:13-60
+receiver#com.easemob.chat.StartServiceReceiver
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:779:9-786:20
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:779:19-71
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.LAUNCHER
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:780:13-785:29
+	android:priority
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:780:28-51
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:782:17-82
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:782:25-79
+meta-data#EASEMOB_APPKEY
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:789:9-791:49
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:790:13-42
+	android:value
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:791:13-46
+service#com.easemob.chat.EMChatService
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:793:9-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:793:18-63
+service#com.baidu.location.f
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:796:9-799:41
+	android:process
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:799:13-38
+	android:enabled
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:798:13-35
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:797:13-48
+meta-data#UMENG_APPKEY
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:801:9-804:21
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:802:13-40
+	android:value
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:803:13-53
+meta-data#UMENG_CHANNEL
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:805:9-808:21
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:806:13-41
+	android:value
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:807:13-33
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:809:9-811:64
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:810:13-52
+	android:value
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:811:13-61
+activity#com.surong.leadloan.activity.contact_group.CrmActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:813:9-818:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:817:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:816:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:815:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:814:13-63
+activity#com.surong.leadloan.activity.personal.AddworkExperience
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:819:9-825:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:824:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:823:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:821:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:820:13-64
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:822:13-44
+activity#com.surong.leadloan.activity.personal.AddEducationExperience
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:826:9-832:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:831:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:830:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:828:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:827:13-69
+	android:launchMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:829:13-44
+activity#com.surong.leadloan.activity.AddFriendActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:833:9-841:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:835:13-49
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:834:13-74
+intent-filter#add_friend_action+android.intent.category.DEFAULT
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:836:13-840:29
+action#add_friend_action
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:837:17-60
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:837:25-57
+activity#com.surong.leadloan.activity.order.PromotionManagerActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:842:9-847:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:846:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:845:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:844:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:843:13-68
+activity#com.surong.leadloan.activity.order.QuickRecommendationActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:848:9-853:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:852:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:851:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:850:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:849:13-71
+activity#com.surong.leadloan.activity.order.QuickRecommendationActivity2
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:854:9-859:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:858:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:857:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:856:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:855:13-72
+activity#com.surong.leadloan.activity.order.SelfRecommendationActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:860:9-865:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:864:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:863:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:862:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:861:13-70
+activity#com.surong.leadloan.activity.order.UploadDataActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:866:9-871:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:870:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:869:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:868:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:867:13-62
+activity#com.surong.leadloan.activity.order.QueryProgressActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:872:9-877:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:876:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:875:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:874:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:873:13-65
+activity#com.surong.leadloan.activity.order.ProgressQueryActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:878:9-883:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:882:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:881:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:880:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:879:13-65
+activity#com.surong.leadloan.activity.order.ClassificationRecommendationActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:884:9-889:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:888:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:887:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:886:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:885:13-80
+activity#com.surong.leadloan.activity.order.LoanAssistantActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:890:9-895:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:894:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:893:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:892:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:891:13-65
+activity#com.surong.leadloan.activity.order.LoanAssistant2Activity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:896:9-901:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:900:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:899:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:898:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:897:13-66
+activity#com.surong.leadloan.activity.crm.CrmHistoryActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:902:9-907:20
+	android:windowSoftInputMode
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:906:13-69
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:905:13-49
+	android:label
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:904:13-45
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:903:13-60
+activity#com.surong.leadloan.explain.ExplainActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:908:9-912:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:910:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:911:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:909:13-52
+activity#com.surong.leadloan.activity.order.CommissionManageActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:913:9-917:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:915:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:916:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:914:13-68
+activity#com.surong.leadloan.activity.order.CommissionDetailActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:918:9-922:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:920:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:921:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:919:13-68
+activity#com.surong.leadloan.activity.order.CommissionDetailWebActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:923:9-927:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:925:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:926:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:924:13-71
+activity#com.surong.leadloan.activity.order.UploadActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:928:9-932:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:930:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:931:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:929:13-58
+activity#com.surong.leadloan.activity.order.DirectMechanismActivity
+ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:933:9-937:20
+	android:screenOrientation
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:935:13-49
+	android:theme
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:936:13-66
+	android:name
+		ADDED from F:\android\test\LeadLoan\AndroidManifest.xml:934:13-67
+receiver#com.easemob.chatuidemo.MyBroadcastReceiver
+ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:11:5-15:16
+	android:name
+		ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:11:15-72
+intent-filter#cn.surong.100
+ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:12:9-14:25
+	android:priority
+		ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:12:24-46
+action#cn.surong.100
+ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:13:13-52
+	android:name
+		ADDED from [test:ChatUIDemo:unspecified] F:\android\test\LeadLoan\build\intermediates\exploded-aar\test\ChatUIDemo\unspecified\AndroidManifest.xml:13:21-49

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/status_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/status_11_01"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="机构资金暂时紧张" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/status_11_02"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="客户不需要了" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/status_11_03"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="客户未能满足放款前提条件" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/status_11_04"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="客户资质复核出现问题" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/status_11_05"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="客户未能同意合同条款" >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/status_11_06"
+                style="@style/status_list_item"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_selector"
+                android:text="其他，请补充说明" >
+            </RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText_11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:padding="12dp"
+            android:hint="请输入原因"
+            android:textColor="#898989"
+            android:inputType="text"
+            android:lines="1"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

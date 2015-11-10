@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <com.surong.leadloan.ui.MyListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#e7e7e7" />
+
+    <com.surong.leadloan.ui.MyListView
+        android:id="@+id/subListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:choiceMode="singleChoice"
+        android:background="@color/white"
+          android:scrollbars="none"
+        android:divider="@null" />
+
+</LinearLayout>

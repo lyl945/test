@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/android/test/LeadLoan/res/values-xhdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="filt_height">566dp</dimen>
+    <dimen name="id_height">156dp</dimen>
+    <dimen name="id_width">262dp</dimen>
+    <dimen name="work_height">158dp</dimen>
+    <dimen name="work_width">104dp</dimen>
+</resources>

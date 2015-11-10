@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/top_title_bar" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ac1c25" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="18dp" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text=""
+                    android:textColor="@color/title_red"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/name"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@id/name"
+                    android:text="未认证"
+                    android:textColor="#555555"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/institute"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:layout_marginTop="12dp"
+                    android:text=""
+                    android:textColor="#555555"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:id="@+id/lin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/institute"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="账户余额："
+                        android:textColor="#555555"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:text=""
+                        android:textColor="#555555"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/money1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dip"
+                        android:text="点券"
+                        android:textColor="#555555"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:layout_width="1dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="14dp"
+                        android:background="#555555"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/fen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:text=""
+                        android:textColor="#555555"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/money2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="积分"
+                        android:textColor="#555555"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lin"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/frame_entry"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/create_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="3dp"
+                        android:text=""
+                        android:textColor="#555555"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/money3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="3dp"
+                        android:text="入驻"
+                        android:textColor="#555555"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="32dp" >
+
+                    <ImageView
+                        android:id="@+id/person_icon"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/head_picture" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:background="@drawable/frame_l1"
+                        android:gravity="center"
+                        android:text="L1"
+                        android:textColor="#fefefe"
+                        android:textSize="10sp"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:background="#ddd" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:background="#f7f5f5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical"
+                android:text="店铺"
+                android:textColor="#303030"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="23dp"
+                android:background="#e7e7e7" />
+
+            <LinearLayout
+                android:id="@+id/lin_1"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ship" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="我的信贷E店"
+                    android:textColor="#4c4c4c"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:background="#f7f5f5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical"
+                android:text="个人及账户"
+                android:textColor="#303030"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="23dp"
+                android:background="#e9e9e9" />
+
+            <LinearLayout
+                android:id="@+id/lin_2"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/mangerment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/per_account" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="账户管理"
+                    android:textColor="#4c4c4c"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="23dp"
+                android:background="#e9e9e9" />
+
+            <LinearLayout
+                android:id="@+id/lin_3"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/certification" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="申请认证"
+                    android:textColor="#4c4c4c"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="23dp"
+                android:background="#e9e9e9" />
+
+            <LinearLayout
+                android:id="@+id/lin_4"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/information" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="完善个人资料"
+                    android:textColor="#4c4c4c"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:background="#ddd"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/lin_5"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/evaluation" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="我的评价"
+                    android:textColor="#4c4c4c"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:background="#f7f5f5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <LinearLayout
+                android:id="@+id/lin_6"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settings" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="设置"
+                    android:textColor="#303030"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="9dp"
+                android:background="#f7f5f5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#ddd" />
+
+            <LinearLayout
+                android:id="@+id/lin_7"
+                android:layout_width="fill_parent"
+                android:layout_height="43dp"
+                android:layout_marginLeft="23dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView_phone5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/our" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_weight="1"
+                    android:text="关于我们"
+                    android:textColor="#303030"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="4dp"
+                    android:src="@drawable/next" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="#f7f5f5" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/personal.xml -->

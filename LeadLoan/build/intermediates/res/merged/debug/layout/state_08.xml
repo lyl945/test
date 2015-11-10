@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/status_per_08"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <TextView
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="收入问题" />
+
+        <CheckBox
+            android:id="@+id/check_16_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="无工资流水" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_16_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="收入/流水过低" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_16_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+             android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="仅现金" >
+        </CheckBox>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="信用问题" />
+
+        <CheckBox
+           android:id="@+id/check_17_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="信用记录差" >
+        </CheckBox>
+
+        <CheckBox
+           android:id="@+id/check_17_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="负债比率高" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_17_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="信用空白" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_17_04"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="本地无房产" >
+        </CheckBox>
+         <TextView
+             android:textColor="@color/black"
+             android:textSize="14sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="人群问题" />
+
+        <CheckBox
+            android:id="@+id/check_18_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="异地工作" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_18_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="工作/企业时间短" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_18_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="低龄申请" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_18_04"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="高危行业" >
+        </CheckBox>
+          <CheckBox
+            android:id="@+id/check_18_05"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="非特定人群" >
+        </CheckBox>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="用途问题" />
+
+        <CheckBox
+            android:id="@+id/check_19_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="购买外地房" >
+        </CheckBox>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="其他问题" />
+
+        <CheckBox
+            android:id="@+id/check_20_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="其他，请补充说明" >
+        </CheckBox>
+        <EditText 
+                    android:id="@+id/editText_per_08"
+                    android:background="@null"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:textColor="#898989"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:padding="12dp"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:hint="请输入原因"/>
+    </LinearLayout>
+     <LinearLayout
+        android:id="@+id/status_firm_08"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="资产收入问题" />
+
+        <CheckBox
+             android:id="@+id/check_21_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="收入/流水过低" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_21_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="水少,大部分为现金" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_21_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="总资产过低" >
+        </CheckBox>
+        <CheckBox
+            android:id="@+id/check_21_04"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="无法核查" >
+        </CheckBox>
+
+        <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="信用问题" />
+
+        <CheckBox
+            android:id="@+id/check_22_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="信用记录差" >
+            </CheckBox>
+             <CheckBox
+            android:id="@+id/check_22_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="信用空白" >
+        </CheckBox>
+
+       
+
+       
+         <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="抵押担保问题" />
+
+        <CheckBox
+            android:id="@+id/check_23_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="抵押物不足值" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_23_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="无法办理抵押登记" >
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/check_23_03"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="实际控制人不愿意提供连带担保" >
+        </CheckBox>
+
+       
+        <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="用途问题" />
+
+        <CheckBox
+            android:id="@+id/check_24_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="不能专款专用" >
+        </CheckBox>
+        <CheckBox
+           android:id="@+id/check_24_02"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="不合理用途" >
+        </CheckBox>
+        <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="还款来源问题" />
+
+        <CheckBox
+            android:id="@+id/check_25_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="还款来源不充分" >
+            </CheckBox>
+            <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="公司自身问题" />
+
+        <CheckBox
+             android:id="@+id/check_26_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="公司自身原因" >
+        </CheckBox>
+        <TextView
+            style="@style/status_list_item"
+            android:textColor="@color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="其他问题" />
+
+        <CheckBox
+            android:id="@+id/check_27_01"
+            style="@style/status_list_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:button="@drawable/checkbox_selector"
+            android:text="其他，请补充说明" >
+        </CheckBox>
+        <EditText 
+                    android:id="@+id/editText_firm_08"
+                    android:background="@null"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="22dp"
+                    android:padding="12dp"
+                    android:textColor="#898989"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:textSize="12sp"
+                    android:layout_marginTop="5dp"
+                    android:hint="请输入原因"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/state_08.xml -->

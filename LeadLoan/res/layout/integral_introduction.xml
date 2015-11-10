@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pull_refresh_scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="什么是信贷经理积分?"
+                android:textColor="@color/title_red"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#f7f5f5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:lineSpacingExtra="8dp"
+                android:text="　　速融100/领贷对信贷经理的优秀服务和努力进行积分奖励，包括登录、及时反馈订单状态等， 同时对于成功放款的订单，系统也将奖励10倍点券数值所对应的积分； "
+                android:textSize="12sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ececec" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="8dp"
+                android:background="#f7f5f5" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#ececec" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="如何获取我的积分？"
+                android:textColor="#e2343f"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f3f3f3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8dp"
+                android:padding="20dp"
+                android:text="1：符合系统奖励积分条件，获得系统奖励积分；\n2：点劵可以兑换积分；\n3：系统赠送，活动赠送积分；(如充值赠送等)"
+                android:textColor="#555555"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/integral_edge"
+            android:orientation="vertical"
+            android:padding="1dp"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="获取积分"
+                    android:textColor="#4c4c4c"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1.5"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="积分奖励"
+                    android:textColor="#4c4c4c"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="50dp"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="3"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="详细说明"
+                    android:textColor="#4c4c4c"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C0E0FF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C0E0FF"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="系统赠送积分"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:text=" "
+                    android:textColor="#ffc000"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="信贷经理充值赠送，活动赠送，系统任务赠送的积分"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#C0E0FF" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C0E0FF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="登陆"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:text="+1"
+                    android:textColor="#ffc000"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="每天多次登陆只记录一次积分"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C0E0FF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C0E0FF"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="订单状态反馈"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:background="#C0E0FF"
+                    android:gravity="center"
+                    android:text="+5分"
+                    android:textColor="#ffc000"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="80dp"
+                    android:background="#fff" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="#C0E0FF"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:text="订单产生之日起30日内的订单，每日进行订单反馈可以获得积分"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#C0E0FF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="订单放款成功"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:gravity="center"
+                    android:text="+订单点劵*10"
+                    android:textColor="#ffc000"
+                    android:textSize="11sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#C0E0FF" />
+
+                <TextView
+                    android:id="@+id/TextView1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:background="@color/white"
+                    android:padding="10dp"
+                    android:text="货款申请人获得贷款后，信贷经理可以将订单状态更改为已成功放款，速融100工作 人员核实正确后，将会奖励和这个订单费用同等的积分给信贷经理，相当于成功订单全免费"
+                    android:textColor="#555555"
+                    android:textSize="11sp" />
+            </LinearLayout>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#ececec" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            android:background="#f7f5f5" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#ececec" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:text="请珍视你的诚信记录"
+            android:textColor="@color/title_red"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#f7f5f5" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:lineSpacingExtra="8dp"
+            android:text="　　平台鼓励和支持诚信交易和合作，当平台发现信贷经理反馈虚假订单状态信息，恶意填写虚假信息时，会酌情扣除积分，对于多次发生和情节严重者将会冻结积分，并计入平台的诚信记录。"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="#f7f5f5" />
+    </LinearLayout>
+
+</ScrollView>

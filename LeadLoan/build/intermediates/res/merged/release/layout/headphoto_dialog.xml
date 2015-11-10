@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dian9"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_addphoto"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:gravity="center"
+        android:text="添加默认图片"
+        android:textColor="#6e6e6e"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd" />
+
+    <TextView
+        android:id="@+id/text_xiangce"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/headphoto_dialog_choose"
+        android:textColor="#6e6e6e"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd" />
+
+    <TextView
+        android:id="@+id/text_paizhao"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/headphoto_dialog_shoot"
+        android:textColor="#6e6e6e"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ddd" />
+
+    <TextView
+        android:id="@+id/text_exit"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:gravity="center"
+        android:text="@string/nickname_quxiao"
+        android:textColor="#6e6e6e"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/F:/android/test/LeadLoan/res/layout/headphoto_dialog.xml -->
