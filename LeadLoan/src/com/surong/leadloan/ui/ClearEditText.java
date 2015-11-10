@@ -22,7 +22,7 @@ public class ClearEditText extends EditText implements OnFocusChangeListener,
 	 */
 	private Drawable mClearDrawable;
 	/**
-	 * �ؼ��Ƿ��н���
+	 * 哈哈
 	 */
 	private boolean hasFoucs;
 
