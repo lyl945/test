@@ -155,6 +155,7 @@ public class AccountManagement extends BaseActivity implements OnClickListener {
 			this.finish();
 			startActivity(new Intent(this, LoginActivity.class));
 			return;
+//            123
 		}
 
 		// MobclickAgent.setDebugMode( true );
